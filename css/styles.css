@@ -1,0 +1,89 @@
+/** Default Styles **/
+
+      html * {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      }
+
+      body {
+        top: 10;
+        background-color: #000;
+      }
+
+      /** Content styles **/
+
+      .container {
+        margin: 0 auto;
+        width: 550px;
+      }
+
+      section {
+        margin-top: 3em;
+      }
+
+      article {
+        /* margin-top: 3em; */
+        background-color: #fff;
+      }
+
+      header {
+        padding: 15px;
+      }
+
+      header i {
+        font-size: 2em;
+      }
+
+      header .left_items {
+        width: 100px;
+      }
+
+      header .left_items i {
+        margin-right: 10px;
+      }
+
+      .image_container {
+        width: inherit;
+      }
+      .image_container img {
+        width: 100%;
+        border-sizing: border-box;
+      }
+
+      .controls {
+        padding: 10px 18px 5px;
+      }
+      .controls i {
+        font-size: 2em;
+      }
+
+      .liked_by {
+        padding: 5px 18px 0;
+      }
+
+      .caption {
+        padding: 0 18px 5px;
+      }
+
+      /** flex styles **/
+
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      header .left_items {
+        display: flex;
+      }
+
+      header .profile_info {
+        justify-content: space-around;
+      }
+
+      .controls {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .controls .left_items i {
+        margin-right: 10px;
+      }
